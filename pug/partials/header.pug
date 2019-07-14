@@ -1,0 +1,32 @@
+#header.page-header
+  .navbar.navbar-expand-lg.navbar-light.bg-white
+    a.navbar-brand
+      img(src="../../src/img/icon.png")
+      span Aquila
+    .collapse.navbar-collapse.order-2.order-lg-1
+      ul.navbar-nav
+        li.nav-item
+          a.nav-link(href="./") Dashboard
+        li.nav-item
+          a.nav-link(href="./") Users
+        li.nav-item
+          a.nav-link(href="./") Settings  
+      form.form-inline.no-border.no-shadow.no-bg
+        .input-group
+          .input-group-prepend
+            span.input-group-text 
+              i.fa.fa-search.fa-navbar-custom
+          input.form-control
+    ul.nav.navbar-menu.order-1.order-lg-2
+      li.nav-item.nav-item-icon
+        a.nav-link.nav-link-relative
+          i.fa.fa-bell.fa-navbar-custom
+          span.badge.badge-pill.badge-up.bg-primary 8
+      li.nav-item.nav-item-icon
+        a.nav-link.nav-link-relative
+          i.fa.fa-inbox.fa-navbar-custom
+          span.badge.badge-pill.badge-up.bg-success 6
+      li.nav-item.dropdown
+        a.nav-link.align-items-center.d-flex
+          span.avatar
+            img.w-36.rounded-circle(src="https://randomuser.me/api/portraits/men/32.jpg")

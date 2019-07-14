@@ -1,0 +1,25 @@
+body{
+  background: #f7f8fa;
+}
+.navbar-brand img{
+  max-height: 30px;
+}
+.avatar{
+  .w-36{
+    width: 36px;
+    height: 36px;
+  }
+}
+.nav-item-icon{
+  margin: auto;
+}
+.fa-navbar-custom{
+  font-size: 1.5em !important;
+}
+
+.nav-link{
+  color: #647787 !important;
+}
+.bg-primary,.bg-success{
+  color: white;
+}

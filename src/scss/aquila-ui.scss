@@ -1,2 +1,11 @@
 @import "variables";
 @import "node_modules/bootstrap/scss/bootstrap";
+
+.nav-link-relative{
+  position: relative;
+}
+.nav-link-relative .badge{
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}

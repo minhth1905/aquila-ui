@@ -3,8 +3,12 @@ html(lang="en")
   head
     base(href=base)
     link(rel="stylesheet", href="../../src/scss/aquila-ui.scss")
+    link(rel="stylesheet", href="../../src/scss/pages/page-aquila-ui.scss")
+    link(rel="stylesheet", href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css")
     title Aquila UI
     block styles
   body
-    block view
+    include ../partials/header.pug
+    #main
+      block view
     include ../partials/scripts.pug
