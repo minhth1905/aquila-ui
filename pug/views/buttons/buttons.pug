@@ -1,0 +1,48 @@
+extends ../layouts/default.pug
+
+block view
+  .container
+    .title
+      h2 Button
+    .row
+      .col-md-6
+        p.strong Colors
+        .mb-3
+          button.btn.w-sm.mb-1.ml-1.btn-primary Primary
+          button.btn.w-sm.mb-1.ml-1.btn-secondary Secondary
+          button.btn.w-sm.mb-1.ml-1.btn-success Success
+          button.btn.w-sm.mb-1.ml-1.btn-info Info
+          br
+          button.btn.w-sm.mb-1.ml-1.btn-warning Warning
+          button.btn.w-sm.mb-1.ml-1.btn-danger Danger
+          button.btn.w-sm.mb-1.ml-1.btn-white White
+          button.btn.w-sm.mb-1.ml-1.btn-light Light
+          br
+          button.btn.w-sm.mb-1.ml-1.btn-dark Dark
+        p.strong Light color
+        .mb-3
+          button.btn.bg-primary-lt Primary
+          button.btn.bg-secondary-lt Secondary
+          button.btn.bg-success-lt Success
+          button.btn.bg-warning-lt Warning
+          button.btn.bg-danger-lt Danger
+          button.btn.bg-white-lt White
+          button.btn.bg-light-lt Light
+          button.btn.bg-dark-lt Dark
+      .col-md-6
+        p.strong Raised button
+        .mb-3
+          button.btn.btn-raised.bg-white White
+          button.btn.btn-raised.red Red
+          button.btn.btn-raised.indigo Indigo
+          button.btn.btn-raised.purple Purple
+          button.btn.btn-raised.blue Blue
+          br
+          button.btn.btn-raised.green Green
+          button.btn.btn-raised.cyan Cyan
+          button.btn.btn-raised.danger(disabled="disabled") Disabled
+        p.strong Icon
+        .mb-3
+          button.btn.btn-raised.btn-icon.btn-rounded.blue
+            span
+              i.i-icon.i-icon-plus.b-2x 
